@@ -7,7 +7,7 @@ phases:
 
   build:
     commands:
-      - mvn clean install
+      - echo "No Maven build — just using source files"
 
   post_build:
     commands:
@@ -15,4 +15,5 @@ phases:
 
 artifacts:
   files:
+
     - target/*.jar
